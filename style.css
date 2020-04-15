@@ -1,0 +1,21 @@
+#allButtons {
+  padding-top:20px;
+  clear:both;
+}
+
+#choices {
+  float:left;
+}
+
+button:nth-child(odd) {
+  float:left;
+  margin-right:10px;
+}
+
+button:nth-child(even) {
+  display:block;
+}
+
+p#currentStory{
+  margin:0;
+}
